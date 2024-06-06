@@ -1,0 +1,3 @@
+# Project overview
+1. Receiving current weather data from the weatherapi.com API every hour for a list of cities from a .yaml file and/or the corresponding database dictionary. The received data is saved in the posrgresql database for further processing with control of data loading through a .csv file.
+2. Receiving forecast weather data from the windy.com API every three hours by geographic coordinates for a list of cities from a .yaml file and/or the corresponding database dictionary. We get city coordinates from the openstreetmap.org service. The resulting forecast data is stored in the posrgresql database for further processing with control of data loading via a .csv file.
