@@ -1,3 +1,3 @@
 Project overview:
-1. Automate the loading of data received from the weatherapi.com API every hour into the database. Migration of data to separate logical tables. Updates are made every hour. Based on individual logical tables, a data mart is built once a day.
-2. Automate the loading of data received from the windy.com windy.com API every three hours into the database. Migration of data to separate logical tables. Updates are made every three hours. Based on individual logical tables, a data mart is built, updated every three hours.
+1. Automate the loading of data received from the weatherapi.com API every hour into the database. Pipeline of data to separate logical tables. Updates are made every hour. Based on individual logical tables, a data mart is built once a day.
+2. Automate the loading of data received from the windy.com windy.com API every three hours into the database. Pipeline of data to separate logical tables. Updates are made every three hours. Based on individual logical tables, a data mart is built, updated every three hours.
