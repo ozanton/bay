@@ -21,9 +21,7 @@ dag_data_psql_to_ch - pipeline for reloading data into the receiver table in the
 
 database.
 
-The normalized data layer in Clickhouse contains tables of date and time values, call handlers and 
-
-operators, as well as a fact table with call data - calls.
+The normalized data layer in Clickhouse contains tables of date and time values, call handlers and operators, as well as a fact table with call data - calls.
 
 dag_data_upсall_ch - update pipeline for transforming and normalizing call data.
 
