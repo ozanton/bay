@@ -16,11 +16,11 @@ table_env.execute_sql("""
     ) WITH (
         'connector' = 'kafka',
         'topic' = 'cdr',
-        'properties.bootstrap.servers' = '91.107.124.96:9092',
+        'properties.bootstrap.servers' = 'localhost:9092',
         'properties.group.id' = 'test-consumer-group',
         'format' = 'csv',
         'csv.field-delimiter' = ',',
-        'csv.ignore-parse-errors' = 'true',  -- Игнорирование ошибок парсинга
+        'csv.ignore-parse-errors' = 'true',  
         'scan.startup.mode' = 'earliest-offset'
     )
 """)
@@ -35,11 +35,11 @@ table_env.execute_sql("""
     ) WITH (
         'connector' = 'kafka',
         'topic' = 'netflow',
-        'properties.bootstrap.servers' = '91.107.124.96:9092',
+        'properties.bootstrap.servers' = 'localhost:9092',
         'properties.group.id' = 'test-consumer-group',
         'format' = 'csv',
         'csv.field-delimiter' = ',',
-        'csv.ignore-parse-errors' = 'true',  -- Игнорирование ошибок парсинга
+        'csv.ignore-parse-errors' = 'true', 
         'scan.startup.mode' = 'earliest-offset'
     )
 """)
@@ -52,7 +52,7 @@ table_env.execute_sql("""
     ) WITH (
         'connector' = 'upsert-kafka',
         'topic' = 'result',
-        'properties.bootstrap.servers' = '91.107.124.96:9092',
+        'properties.bootstrap.servers' = 'localhost:9092',
         'key.format' = 'json',
         'value.format' = 'json'
     )
