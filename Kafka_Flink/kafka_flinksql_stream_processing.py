@@ -1,11 +1,9 @@
 from pyflink.table import EnvironmentSettings, TableEnvironment
 
-# Настройка Table API окружения
 settings = EnvironmentSettings.new_instance().in_streaming_mode().build()
 table_env = TableEnvironment.create(settings)
 table_env.get_config().set("parallelism.default", "1")
 
-# 1. Определение источников данных из Kafka (для CDR и Netflow)
 table_env.execute_sql("""
     CREATE TABLE IF NOT EXISTS default_catalog.default_database.cdr_table (
         CUSTOMER_ID STRING,
@@ -46,7 +44,6 @@ table_env.execute_sql("""
     )
 """)
 
-# 2. Запись агрегированных данных непосредственно в Kafka с форматом JSON
 table_env.execute_sql("""
     CREATE TABLE IF NOT EXISTS default_catalog.default_database.result_table (
         CUSTOMER_ID STRING,
@@ -61,7 +58,6 @@ table_env.execute_sql("""
     )
 """)
 
-# 3. Агрегация данных и запись в итоговую таблицу
 table_env.execute_sql("""
     INSERT INTO default_catalog.default_database.result_table
     SELECT 
