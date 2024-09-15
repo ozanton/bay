@@ -8,6 +8,6 @@
 | [Analytical database](/Postgres_to_Clickchouse/)  |  Loading the data from Postgres, analytical database design, creating a data vault model in Clickhouse.  | *Python*, *PostgreSQL*, *Clickhouse*, *DML*, *DDL*, *Airflow*| 
 | [Stream processing](/Kafka_Flink/) | Real-Time Stream Data Processing | *Kafka*, *Flink*, *SQL* | 
 | [Streaming service](/Kafka/) | Getting the data from kafca topic, do some manipulations with data, saving to database and sending to another topic |*Kafka*, *SQL*| 
-| [RFM analysis](/RFM/) | Create a data showcase for RFM classification of application users. | *SQL*, *DML*, *DDL*| 
+| [RFM analysis](/RFM/) | Create a datamart for RFM classification of application users. | *SQL*, *DML*, *DDL*| 
 | [...](/.../) | .... | *Python*, *SQL*, *DML*, *DDL*| 
 | [...](/.../) | .... | *Python*, *SQL*, *DML*, *DDL*| 
