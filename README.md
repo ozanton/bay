@@ -7,4 +7,7 @@
 | [Migrations_project](/Migrations_project/) |  The task is to do a migration to separate logical tables and then build a data showcase on them.  | *SQL*, *DML*, *DDL*, *Migrations*, *Backwards compatibility*| 
 | [Analytical database](/Postgres_to_Clickchouse/)  |  Loading the data from Postgres, analytical database design, creating a data vault model in Clickhouse.  | *Python*, *PostgreSQL*, *Clickhouse*, *DML*, *DDL*, *Airflow*| 
 | [Stream processing](/Kafka_Flink/) | Real-Time Stream Data Processing | *Kafka*, *Flink*, *SQL* | 
-| [.....](/...../)  | ...... |*Python*, *DML*, *DDL*, *Airflow*| 
+| [Streaming service](/Kafka/) | Getting the data from kafca topic, do some manipulations with data, saving to database and sending to another topic |*Kafka*, *SQL*| 
+| [RFM analysis](/RFM/) | Create a data showcase for RFM classification of application users. | *SQL*, *DML*, *DDL*| 
+| [...](/.../) | .... | *Python*, *SQL*, *DML*, *DDL*| 
+| [...](/.../) | .... | *Python*, *SQL*, *DML*, *DDL*| 
