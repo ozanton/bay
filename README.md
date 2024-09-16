@@ -12,5 +12,5 @@
 | [Streaming service](/Kafka/) | Getting the data from kafca topic, do some manipulations with data, saving to database and sending to another topic |*Kafka*, *SQL*| 
 | [RFM analysis](/RFM/) | Creating a datamart for RFM classification of application users. | *SQL*, *DML*, *DDL*| 
 | [DWH several sources](/DWH_several_sources/) | Creating a multilayer DWH and pipeline for incremental loading of data into the database. | *Python*, *SQL*, *DML*, *DDL*, *MongoDB*, *Airflow*, *API*| 
-| [...](/Data_Lake/) | Working with data in parquet format, calculating the metrics required by the business, creating data marts.| *Hadoop*, *Spark*, *DML*, *DDL*, *Airflow*| 
+| [Data lake](/Data_Lake/) | Working with data in parquet format, calculating the metrics required by the business, creating data marts.| *Hadoop*, *Spark*, *Airflow*| 
 

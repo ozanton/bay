@@ -8,15 +8,14 @@ At the same time, the team wants to better study the audience of the social netw
 - See where the most new users sign up.
 - Determine how often users travel and which cities they choose.
 
-
 # Storage Structure:
 Layer raw_data - raw data partitioned by date in parquet format /user/master/data
-ODD layer - sandbox for analysts /user/vasiliikus/analytics/project_7/
-          - parquet data partitioned by date and type of events /user/vasiliikus/analytics/project_7/data/events
-          - directory with coordinates of cities and time zones /user/vasiliikus/analytics/project_7/data/cities/geo.csv
-Data showcases /user/vasiliikus/analytics/mart/users_mart - showcase by users
-                                              /zones_mart - showcase by zones
-                                              /friends_recommendation_mart - showcase for friends recommendation
+ODD layer - sandbox for analysts /user/analytics/project/
+          - parquet data partitioned by date and type of events /user/analytics/project/data/events
+          - directory with coordinates of cities and time zones /user/analytics/project/data/cities/geo.csv
+Datamart /user/analytics/mart/users_mart - datamart by users
+                            /zones_mart - datamart by zones
+                            /friends_recommendation_mart - datamart for friends recommendation
 Running ETL once a day
 - copying data into ODD c layer with partitioning by date and type of events
 
@@ -31,6 +30,5 @@ Friend recommendation works as follows: if users are subscribed to the same chan
 
 At this stage DAGs are not scheduled to run, to implement ETL you will need to apply the parameter cathcup = True and use the 
 '{{ ds }}' 
-
 
 The function total_repartition_func.py was used to manually copy data to ODDs

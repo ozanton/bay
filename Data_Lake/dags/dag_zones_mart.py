@@ -10,12 +10,12 @@ os.environ['SPARK_HOME'] ='/usr/lib/spark'
 os.environ['PYTHONPATH'] ='/usr/local/lib/python3.8'
 
 default_args = {
-                                'owner': 'airflow',
+                                'owner': 'etl_user',
                                 'start_date':datetime(2022, 1, 1),
                                 }
 
 dag_spark = DAG(
-                        dag_id = "_3_zones_mart",
+                        dag_id = "zones_mart",
                         default_args=default_args,
                         schedule_interval=None,
                         )
@@ -24,11 +24,11 @@ dag_spark = DAG(
 zones_mart = SparkSubmitOperator(
                         task_id='zones_mart_task',
                         dag=dag_spark,
-                        application ='/lessons/scripts/mart_zones.py' ,
+                        application ='/scripts/mart_zones.py' ,
                         conn_id= 'yarn_spark',
-                        application_args = ['/user/vasiliikus/analytics/project_7/data/cities/geo.csv',
-                                            '/user/vasiliikus/analytics/project_7/data/events',
-                                            '/user/vasiliikus/analytics/project_7/mart'],
+                        application_args = ['/user/analytics/project/data/cities/geo.csv',
+                                            '/user/analytics/project/data/events',
+                                            '/user/analytics/project/mart'],
                         conf={
             "spark.driver.maxResultSize": "20g"
         },

@@ -10,12 +10,12 @@ os.environ['SPARK_HOME'] ='/usr/lib/spark'
 os.environ['PYTHONPATH'] ='/usr/local/lib/python3.8'
 
 default_args = {
-                                'owner': 'airflow',
+                                'owner': 'etl_user',
                                 'start_date':datetime(2022, 1, 1),
                                 }
 
 dag_spark = DAG(
-                        dag_id = "_1_partitions_overwrite",
+                        dag_id = "partitions_overwrite",
                         default_args=default_args,
                         schedule_interval=None,
                         )
@@ -24,9 +24,9 @@ dag_spark = DAG(
 spark_submit_local = SparkSubmitOperator(
                         task_id='spark_submit_task',
                         dag=dag_spark,
-                        application ='/lessons/scripts/data_partitions_overwrite.py' ,
+                        application ='/scripts/data_partitions_overwrite.py' ,
                         conn_id= 'yarn_spark',
-                        application_args = ["2022-06-21",'/user/master/data/geo/events/','/user/vasiliikus/analytics/project_7/data/events'],
+                        application_args = ["2022-06-21",'/user/master/data/geo/events/','/user/analytics/project/data/events'],
                         conf={
             "spark.driver.maxResultSize": "20g"
         },
