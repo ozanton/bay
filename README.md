@@ -1,5 +1,5 @@
 # bay portfolio
-
+Data engeneering projects:
 | Project | Description | Instruments |
 | :---------------------- | :---------------------- | :---------------------- |
 | [Obtaining data from sources](/API/) | Getting current weather data from weatherapi.com API and receiving forecast weather data from the windy.com API | *Python*, *DML*, *DDL*, *API* | 
@@ -13,4 +13,14 @@
 | [RFM analysis](/RFM/) | Creating a datamart for RFM classification of application users. | *SQL*, *DML*, *DDL*| 
 | [DWH several sources](/DWH_several_sources/) | Creating a multilayer DWH and pipeline for incremental loading of data into the database. | *Python*, *SQL*, *DML*, *DDL*, *MongoDB*, *Airflow*, *API*| 
 | [Data lake](/Data_Lake/) | Working with data in parquet format, calculating the metrics required by the business, creating data marts.| *Hadoop*, *Spark*, *Airflow*| 
+| [Cloud service](/Cloud_service/) | Implementation of an application using microservice architecture. Data exchange between services using Kafka message broker.| *Kafka*, *PostgreSQL*, *Redis*, *Microservice*, *Kubernetes*, *Helm*, *Docker*| 
 
+Data analitical projects:
+| Project | Description | Instruments |
+| :---------------------- | :---------------------- | :---------------------- |
+| [.....](/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
+| [.....](/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
+| [.....](/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
+| [.....](/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
+| [.....](/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
+| [.....](/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
