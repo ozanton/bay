@@ -15,12 +15,12 @@ Data engeneering projects:
 | [Data lake](/Data_Lake/) | Working with data in parquet format, calculating the metrics required by the business, creating data marts.| *Hadoop*, *Spark*, *Airflow*| 
 | [Cloud service](/Cloud_service/) | Implementation of an application using microservice architecture. Data exchange between services using Kafka message broker.| *Kafka*, *PostgreSQL*, *Redis*, *Microservice*, *Kubernetes*, *Helm*, *Docker*| 
 
-Data analitical projects:
+Data analitical (DA) projects:
 | Project | Description | Instruments |
 | :---------------------- | :---------------------- | :---------------------- |
-| [.....](/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
-| [.....](/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
-| [.....](/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
-| [.....](/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
-| [.....](/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
-| [.....](/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
+| [Borrower relability research](/DA/borrower_reliability_research/) | Data preprocessing: Analysis of data on marital status and number of children of the client on the fact of repayment of the loan on time to build a credit scoring model.  | *pandas*| 
+| [Realty reseaech](/DA/realty_research/) | Exploratory data analysis: Parameters for determining the market value of real estate. | *pandas*, *matplotlib*| 
+| [Determining a prospective tariff for a telecom company](/DA/best_tariff_for_telecom_company/) | Statistical analysis of data: Finding out using statistical methods which communications company's tariff is the most profitable. | *pandas, numpy, math, matplotlib, scipy* | 
+| [.....](/DA/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
+| [.....](/DA/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
+| [.....](/DA/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
