@@ -20,7 +20,9 @@ Data analitical (DA) projects:
 | :---------------------- | :---------------------- | :---------------------- |
 | [Borrower relability research](/DA/borrower_reliability_research/) | Data preprocessing: Analysis of data on marital status and number of children of the client on the fact of repayment of the loan on time to build a credit scoring model.  | *pandas*| 
 | [Realty reseaech](/DA/realty_research/) | Exploratory data analysis: Parameters for determining the market value of real estate. | *pandas*, *matplotlib*| 
-| [Determining a prospective tariff for a telecom company](/DA/best_tariff_for_telecom_company/) | Statistical analysis of data: Finding out using statistical methods which communications company's tariff is the most profitable. | *pandas, numpy, math, matplotlib, scipy* | 
+| [Determining a prospective tariff for a telecom company](/DA/tariff_for_telecom_company/) | Statistical analysis of data: Finding out using statistical methods which communications company's tariff is the most profitable. | *pandas, numpy, math, matplotlib, scipy* | 
 | [Computer games market analysis](/DA/games_market/) | Statistical analysis of data: Identifying patterns that determine the success of a game. | *pandas, matplotlib* | 
 | [Analytics in the airline industry](/DA/airlines/) | Data Extraction: Downloading data from a SQL database and conducting exploratory data analysis. | *SQL, pandas, matplotlib* | 
-| [.....](/DA/...../) | ..... | *.....*, *....*, *.....*, *.....* | 
+| [Customer churn](/DA/churn/) | Building a model with an admirably large value of F1-measure. | *pandas, numpy, sklearn, tqdm* | 
+| [Determining a prospective tariff for a telecom company](/DA/tariff_for_telecom_company/) | Finding out, using statistical methods, which tariff of a telecommunications company is the most profitable. | *pandas, numpy, math, matplotlib, scipy* | 
+| [Determining the value of cars](/DA/cost_car/) |  Building a model to determine the value of the car. | *pandas, numpy, math, matplotlib, scipy* | 
