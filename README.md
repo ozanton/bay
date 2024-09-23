@@ -20,6 +20,7 @@ Data analitical (DA) projects:
 | :---------------------- | :---------------------- | :---------------------- |
 | [Borrower relability research](/DA/borrower_reliability_research/) | Data preprocessing: Analysis of data on marital status and number of children of the client on the fact of repayment of the loan on time to build a credit scoring model.  | *pandas*| 
 | [Realty reseaech](/DA/realty_research/) | Exploratory data analysis: Parameters for determining the market value of real estate. | *pandas*, *matplotlib*| 
+| [Data Analysis on Super Store](/DA/store_analysis/) | Exploratory data analysis: Analyze sales data and identify weaknesses as well as opportunities to accelerate business growth. | *pandas, matplotlib, seaborn* | 
 | [Determining a prospective tariff for a telecom company](/DA/tariff_for_telecom_company/) | Statistical analysis of data: Finding out using statistical methods which communications company's tariff is the most profitable. | *pandas, numpy, math, matplotlib, scipy* | 
 | [Computer games market analysis](/DA/games_market/) | Statistical analysis of data: Identifying patterns that determine the success of a game. | *pandas, matplotlib* | 
 | [Analytics in the airline industry](/DA/airlines/) | Data Extraction: Downloading data from a SQL database and conducting exploratory data analysis. | *SQL, pandas, matplotlib* | 
