@@ -2,7 +2,7 @@
 Data engeneering projects:
 | Project | Description | Instruments |
 | :---------------------- | :---------------------- | :---------------------- |
-| [Obtaining data from sources](/API/) | Getting current weather data from weatherapi.com API and receiving forecast weather data from the windy.com API | *Python*, *DML*, *DDL*, *API* | 
+| [Obtaining data from sources](/API/) | Getting current data and receiving forecast data from API | *Python*, *DML*, *DDL*, *API* | 
 |[Data load pipeline](/Data_load_pipeline/) | Automation of data collection and loading into the database. pipeline to separate logical tables and then build a data marts on them. Incremental data loading. | *Python*, *SQL*, *DML*, *DDL*, *Airflow*, *Pipeline*| 
 | [ETL and data preparation automation](/ETL_data_preparation_automation/) | Creating a pipeline for incremental loading of data into the databas. | *Python*, *SQL*, *DML*, *DDL*, *Airflow*, *Pipeline*, *API* | 
 | [Migrations project](/Migrations_project/) |  The task is to do a migration to separate logical tables and then build a datamart on them.  | *SQL*, *DML*, *DDL*, *Migrations*, *Backwards compatibility*| 
